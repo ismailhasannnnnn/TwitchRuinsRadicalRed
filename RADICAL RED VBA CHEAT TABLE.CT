@@ -522,18 +522,6 @@
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
-  <LuaScript>function draw(arr,X,Y)
-	for j=1,#arr do
-	for i=1,#(arr[1]) do
-
-
-			gui.pixel(X+i, Y+j, arr[j][i])
-
-		end
-	end
-end
-
-draw(par,141,95+readBytes(0x02616DA))
-
+  <LuaScript>
 </LuaScript>
 </CheatTable>
