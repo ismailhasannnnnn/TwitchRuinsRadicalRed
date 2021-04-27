@@ -18,24 +18,25 @@
       <GroupHeader>1</GroupHeader>
     </CheatEntry>
     <CheatEntry>
-      <ID>61</ID>
+      <ID>79</ID>
       <Description>"Weather Effects -- SUNNY: 0020 -- RAIN: 0001: -- SANDSTORM: 0008 -- HAIL: 0080"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
+      <LastState Value="" RealAddress="00000000"/>
       <Color>0000FF</Color>
-      <VariableType>Byte</VariableType>
-      <Address/>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>62</ID>
-      <Description>"Weather Effect"</Description>
-      <LastState Value="0000" RealAddress="0EA2396C"/>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>2 Bytes</VariableType>
-      <Address>"vba-v24m-svn480.exe"+427070</Address>
-      <Offsets>
-        <Offset>23F1C</Offset>
-      </Offsets>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>62</ID>
+          <Description>"Weather Effect"</Description>
+          <LastState Value="0000" RealAddress="0EA2396C"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>"vba-v24m-svn480.exe"+427070</Address>
+          <Offsets>
+            <Offset>23F1C</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
     <CheatEntry>
       <ID>35</ID>
